@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: 'Bitter', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+html,
+body {
+  height: 100%;
+  background-image: url('https://i.pinimg.com/originals/25/48/bf/2548bf6970f74d0d9594e17b72bc2037.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.countdown-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 60px;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(242, 93, 0);
+}
+
+@media (max-width: 390px) {
+  .countdown-container {
+    border: none;
+    box-shadow: none;
+  }
+}
+.countdown-t {
+  padding: 21px;
+}
+
+.bigtext {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+.countdown-t span {
+  font-size: 18px;
+  color: #ffffff;
+}
+.quotes-containter p {
+  font-size: large;
+  font-style: italic;
+  color: rgb(255, 106, 0);
+}
+@media (max-width: 390px) {
+  .quotes-containter p {
+    font-size: 21px;
+  }
+}
+/* You can add more styles or modify these as per your requirements */
